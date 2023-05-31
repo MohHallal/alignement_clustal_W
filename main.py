@@ -3,7 +3,6 @@ import alignement_local
 import neibour_joining
 import upgma
 from collections import Counter
-import pandas as pd
 def seperating_sequences(file):
     """ Creates a dictionnary from the FASTA file, the species as keys and the protein sequence as its item """
     with open(file, "r", encoding="utf-8") as fasta_file:
